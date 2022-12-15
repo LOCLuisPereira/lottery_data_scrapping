@@ -1,4 +1,5 @@
-day_of_week,year,month,day,n1,n2,n3,n4,n5,s1,s2tue,2022,mar,1,8,24,26,39,42,3,5
+day_of_week,year,month,day,n1,n2,n3,n4,n5,s1,s2
+tue,2022,mar,1,8,24,26,39,42,3,5
 fri,2022,feb,25,10,13,24,30,42,1,5
 tue,2022,feb,22,5,9,14,26,32,3,7
 fri,2022,feb,18,25,38,41,43,50,6,10

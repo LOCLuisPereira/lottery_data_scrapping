@@ -3,7 +3,10 @@ import requests
 import re
 
 handler_csv = open('euromillions.csv','w')
-handler_csv.write('day_of_week,year,month,day,n1,n2,n3,n4,n5,s1,s2')
+print(
+    'day_of_week,year,month,day,n1,n2,n3,n4,n5,s1,s2',
+    file=handler_csv
+)
 
 url = 'https://portalseven.com/lottery/euromillions_winning_numbers.jsp?fromDate=2021-12-12&toDate=2022-12-12&viewType=3#'
 raw = requests.get(url).text
