@@ -1,1 +1,1 @@
-# lottery_data_scrapping
+Just a simple web scrapper for collecting lottery data.
